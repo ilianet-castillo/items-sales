@@ -1,12 +1,5 @@
 package org.learn.domain;
 
-public class Item {
-    private double price;
-    private double cost;
-    private String color;
-    private String type;
-
-
-
+public record Item (double price,double cost,String color,String type){
 
 }
