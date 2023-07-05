@@ -1,4 +1,4 @@
-package org.learn.domain;
+package org.learn.domain.discounts;
 
 public interface Discountable {
 

@@ -1,7 +1,7 @@
-package org.learn.domain;
+package org.learn.domain.discounts;
 
 
-public class Discount {
+public abstract class Discount {
     private double percentage;
 
     public boolean isApplicable(Discountable discountable){
